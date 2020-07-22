@@ -1,0 +1,8 @@
+
+cREATE TABLE employee
+   (	id NUMBER(6,0) primary key, 
+	name VARCHAR2(20 BYTE), 
+	age integer,
+    	gender varchar2(200))
+
+    create SEQUENCE EMPLOYEES_SEQ start with 1 increment by 1 
